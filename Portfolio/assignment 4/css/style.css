@@ -8,39 +8,53 @@ html, body {
 html {
 		/* Standard text-settings below */
 	font-size: 1em;
-    line-height: 1.4em;
+    line-height: 1.4;
 }
 
 
 
 
 body {
-	background: #132A5E
+	background: #132A5E;
+	
 }
 
 
 #container {
+	margin-right: auto;
+	margin-left: auto;
+
+
 	
 }
 
 
 span.oreo {
-	color: solid white;
-	font-size: 250px;
+	color: white;
+	font-size: 150px;
+	bottom: 0px;
+	top: 200px;
+	right: -500px;
+	left: -1000px;
+	rotate: 45deg;
+	opacity: 0.5;
 	position: absolute;
-	bottom: 500px;
-	right: 100px;
-	offset-rotate: 45deg;
-	text-shadow: 50px 50px 5px black;
+	text-shadow: 200px 200px 100px black;
+}
+span.next{
+
+
 }
 
 span.period {
+	margin: 1064px;
 	color: white;
-	font-size: 75em;
+	font-size: 100em;
 	position: absolute;
-	right: 75px;
-	left: 0px;
-	bottom: 200px;
-	opacity: 0.7;
+	right: 300px;
+	left: 250px;
+	top: 0px;
+	bottom: 0px;
+	opacity: 1.0;
 	text-shadow: 20px 20px 10px black;
 }
