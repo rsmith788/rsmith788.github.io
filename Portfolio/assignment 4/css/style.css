@@ -15,8 +15,7 @@ html {
 
 
 body {
-	
-	
+	background: #132A5E
 }
 
 
@@ -26,7 +25,7 @@ body {
 
 
 span.oreo {
-	color: #26b67c;
+	color: solid white;
 	font-size: 250px;
 	position: absolute;
 	bottom: 500px;
@@ -36,12 +35,12 @@ span.oreo {
 }
 
 span.period {
-	color: #b327b7;
-	font-size: 50em;
+	color: white;
+	font-size: 75em;
 	position: absolute;
-	right: 25px;
-	left: 50px;
-	bottom: 400px;
+	right: 75px;
+	left: 0px;
+	bottom: 200px;
 	opacity: 0.7;
 	text-shadow: 20px 20px 10px black;
 }
