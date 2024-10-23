@@ -1,0 +1,33 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;-
+}
+
+
+
+
+body {
+	font-family:'Trebuchet MS',sans-serif;
+	
+}
+
+
+div#container{
+	
+	margin:auto;
+	margin-top:20px;
+	width:800px;
+	border: 1px solid black;
+}
+
+
+
+

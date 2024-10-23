@@ -1,0 +1,93 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1.7em;
+    line-height: 1.4em;
+}
+
+
+
+body {
+	background: #000000;
+	color: #5DE2E7;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+#container {
+	width: 80%;
+	max-width: 800px;
+	background: #838383;
+	margin:auto;
+	padding: 50px;
+	border: 20px solid white;
+
+}
+
+img {
+	width:250px;
+	max-width: 550px;
+}
+
+nav ul{
+	border:15px solid white;
+	background:#CECECE;
+	list-style:none;
+	padding-left:0px;
+}
+
+figure{
+
+
+}
+
+figure img{
+	width: 250%;
+
+}
+
+nav.horizontal li{
+	border: 1px solid red;
+	display: inline;
+}
+
+nav a{
+	border:1px solid black;
+	text-decoration:none;
+	background:black;
+	color:white;
+	padding: 5px;
+	margin: 5px;
+	display: inline-block;
+	border-radius: 8px;
+}
+	nav a:hover {
+		background: #FD8D14;
+	}
+
+/*Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+	body {
+		background: orange;
+
+	}
+
+
+}
+#container{
+
+
+
+}
+
+
+}
+
+}/* closes 1024px+*/
