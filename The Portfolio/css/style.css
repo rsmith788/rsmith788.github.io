@@ -79,8 +79,15 @@ nav a{
 
 	}
 
+	main {
+display: flex;{
+         	}
+
+figure, section {
+	flex: 1 1 50%
 
 }
+
 #container{
 
 
