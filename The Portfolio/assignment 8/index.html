@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	<title>title</title>
+	<link rel="stylesheet" href="css/style.css">	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+	<style>
+  		h1  { text-align: center;}
+  		h2  { text-align: center;}
+		h3  { text-align: center;}
+  		p.solid {border-style: groove;}
+	</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+<h1>Assignment 8</h1>
+<h2>Click Something</h2>
+<h3>Due: 10/13/24</h3>
+</header>
+
+<main>
+
+
+
+<button>Button #1</button>
+<button>Button #2</button>
+
+<p id="hidden">If text — use section
+	, with a special id name, as the parent element.
+	elements can be used inside.</p>
+
+<p id="hidden2">There will be three additional pieces of content (text, images, audio or videos) that respond to the initial content (thematically, conceptually), but are hidden at page load. Through interactions with buttons (or other elements), the hidden elements will become visible so that the website interface may "unfold" or "blossom" to become a more interesting experience</p>
+
+<figure>
+	<center>
+		<img src="img/assignment8.png"
+		alt="assignment8"
+		class="responsive"
+		id="assignment8" >
+	</center>
+</figure>
+
+<figure class="responsive">
+	<img src="img/whereimheaded2.png"
+	id="whereimheaded2"
+	alt="whereimheaded2"
+	class="responsive"
+</figure>
+
+<figure class="responsive">
+	<iframe id= "vid" width="560" height="315" src="https://www.youtube.com/embed/LBSwweZj4ok?si=wnW_f8Be68WsaIL5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	
+
+</figure>
+
+</main>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
+
+<script>
+$('p#hidden').hide();
+
+$(document).ready(function() {
+
+	$('button').click(function(){ 
+
+  		$('p#hidden').slideToggle();
+
+  	}); //close button click function
+
+	$('h2').click(function() {
+
+    	$('p#hidden2').slideToggle();
+
+	}); //close h2 click function
+
+$('p#hidden2').hide();
+
+$('img#whereimheaded2').hide();
+	//close h2 click function
+
+	$('h1').click(function() {
+
+		$('img#whereimheaded2').fadeToggle();
+	}); //close()click function
+
+	$('h3').click(function() {
+
+		$('img#assignment8').fadeToggle();
+	}); //close()click function
+  
+$('iframe#vid').hide();
+
+	$('img#assignment8').click(function() {
+
+		$('iframe#vid').fadeToggle();
+	}); //close()click function
+
+}); //close-ready()
+</script>
+</body>
+</html>

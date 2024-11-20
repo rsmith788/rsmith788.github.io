@@ -1,0 +1,58 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 2em;
+    line-height: 1.4em;
+	font-family: "Libre Franklin", sans-serif;
+}
+
+header{
+	background: rgb(146, 215, 99);
+	
+
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.hidden{
+
+color: 	white;
+}
+
+.responsive {
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+
+.img {
+  max-height: 20%;
+
+}
+
+h1{
+	 color: rgb(194, 237, 99)
+}
+
+h2{
+	color:rgb(7, 71, 26)
+}
+
+
+p {
+
+	color:rgb(7, 71, 26)
+}
+
+
