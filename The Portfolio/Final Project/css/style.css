@@ -1,0 +1,199 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    font-family: "ltc-nicholas-cochin-pro", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+header {
+    position: relative;
+    width: 100%; 
+    overflow: hidden;
+    font-family: "ltc-nicholas-cochin-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+.content {
+    margin-top: 60px; 
+  }
+
+  
+  .fake-tweet4 {
+    width: 50%; 
+    max-width: 600px; 
+    height: auto; 
+    margin: 20px auto; 
+    display: block; 
+  }
+
+
+  .itforreal {
+    width: 50%; 
+    max-width: 600px; 
+    height: auto; 
+    margin: 20px auto; 
+    display: block;
+     
+  }
+
+
+.uncletommy {
+    width: 100%; 
+    height: auto;
+    display: block; 
+}
+
+
+body, ul, li, h1 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "ltc-nicholas-cochin-pro", sans-serif;
+}
+.separator {
+    border: 5px solid #3a3e3d; 
+    padding: 15px; 
+    border-radius: 10px; 
+    background-color: #f8f8f8; 
+    font-family: "ltc-nicholas-cochin-pro", sans-serif;
+}
+body {
+    font-family: "ltc-nicholas-cochin-pro", sans-serif;
+    font-size: 2em;
+}
+
+
+.responsiveimage {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    position: absolute; 
+    top: 0; 
+    z-index: -1; 
+  }
+
+
+header {
+    background-color: rgba(white);
+    color: white;
+    text-align: center;
+    padding: 0px 10;
+    position:relative;
+    margin-top: 45px;
+
+}
+.tg {
+text-align: center;
+
+}
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10px 0;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    transition: font-weight 0.3s ease;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+}
+.signin {
+position: absolute; 
+top: 10px; 
+right: 10px; 
+background-color: transparent; 
+padding: 10px 20px; 
+font-size: 1rem; 
+text-decoration: none; 
+color: #333;  }
+    
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+main {
+    margin-left: 100px; 
+    height: 100vh; 
+    overflow-y: scroll; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+}
+img {
+    max-width: 100%; 
+    height: auto;
+}
+    /* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+    /* Minimum width for laptops. */
+    @media all and (min-width: 769px) {
+        nav {
+            flex-direction: column;
+            align-items: center;
+        }
+
+            nav a {
+                margin: 5px 0;
+            }
+
+        .signin {
+            font-size: 0.9rem; /* Adjust font size for smaller screens */
+            padding: 8px 16px; /* Adjust padding for smaller screens */
+        }
+
+        .uncletommy {
+            height: 400px; /* Example height for larger screens */
+        }
+    }
+    /* closes 769px+ */
+    /* Minimum width for desktop screens. */
+    @media all and (min-width: 1024px) {
+
+        .uncletommy {
+            height: 250px; /* Example height for smaller screens */
+        }
+
+        .uncletommy {
+            object-fit: cover; /* Ensures the image fills the header while maintaining aspect ratio */
+        }
+    }
+    /* closes 1024px+ */
+
+
+
